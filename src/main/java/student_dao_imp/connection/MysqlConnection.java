@@ -10,7 +10,7 @@ public class MysqlConnection {
     //url=jdbc:mysql://127.0.0.1:3306/数据库名,jdbc:mysql:是一个规范，必须遵守。
     private final String DBURL="jdbc:mysql://localhost:3306/student";
     private final String DBUSER="root";
-    private final String DBPASSWORD="fame0815";
+    private final String DBPASSWORD="";
     private Connection conn = null;
 
     public MysqlConnection(){
